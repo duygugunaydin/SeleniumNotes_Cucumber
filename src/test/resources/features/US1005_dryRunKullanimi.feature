@@ -1,5 +1,7 @@
+@regression  @pr1
 Feature: US1005 Kullanici amazonda urun aratip 2.urun detaylarini test eder
 
+  @ss
   Scenario: TC09 Kullanici arama sonuclarinda istedigi urunu test edebilmeli
 
     Given kullanici "amazonUrl" anasayfaya gider

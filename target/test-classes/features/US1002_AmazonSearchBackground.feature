@@ -8,7 +8,6 @@ Feature: US1002 Kullanici Background kullanarak Amazonda arama yapar
     And arama sonuclarinin Nutella icerdigini test eder
     And sayfayi kapatir
 
-
   Scenario: TC05 kullanici Amazonda Java aratir
     When arama kutusuna Java yazar ve enter tusuna basar
     Then arama sonuclarinin Java icerdigini test eder

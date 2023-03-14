@@ -11,8 +11,8 @@ Feature: US1007 Scenario Outline ile coklu negative login test
     And sayfayi kapatir
 
     Examples:
-    |username|password|
-    |Hasan@   |12344   |
-    |Said    |645363  |
-    |Eyup    |jskdbvk |
-    |Fidan   |ytefv86 |
+      |username|password|
+      |Hasan   |12344   |
+      |Said    |645363  |
+      |Eyup    |jskdbvk |
+      |Fidan   |ytefv86 |
