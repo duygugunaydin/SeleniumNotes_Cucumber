@@ -6,13 +6,13 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        plugin = {"html:target/cucumber-reports.html",  // rapor icin burdan runnerdan calıstırılmalı,featureden olusturursak rapor olusturmaz.
-                "json:target/json-reports/cucumber.json",  // (bu iki satir sonradan eklendi)
+        plugin = {"html:target/cucumber-reports.html",
+                "json:target/json-reports/cucumber.json",
                 "junit:target/xml-report/cucumber.xml"
         },
         features = "src/test/resources/features",
         glue = "stepdefinitions",
-        tags = "@ss",
+        tags = "@ss" ,
         dryRun = false
 )
 public class Runner {

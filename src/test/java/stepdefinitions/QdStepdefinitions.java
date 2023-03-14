@@ -44,9 +44,4 @@ public class QdStepdefinitions {
     public void passwordOlarakExamplesDanGirer(String password) {
         qdPage.passwordKutusu.sendKeys(password);
     }
-
-    @Then("cookiesi kapatir")
-    public void cookiesiKapatir() {
-        qdPage.cookieAcceptButonu.click();
-    }
 }
